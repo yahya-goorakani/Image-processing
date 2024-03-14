@@ -1,6 +1,5 @@
 import cv2 as cv
-
-if __name__ == "__main__":
+def blurred():
     image = cv.imread('img.jpg')
 
     if image is None:
@@ -9,3 +8,7 @@ if __name__ == "__main__":
         blurred_image = cv.GaussianBlur(image, (65, 65), 0)
 
         cv.imwrite('blurred_image.jpg', blurred_image)
+
+if __name__ == "__main__":
+
+    blurred()
