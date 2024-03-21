@@ -12,9 +12,9 @@ def mask():
         upper = np.array([86, 255,255])
 
         mask = cv.inRange(hsv, lower, upper)
-        # color_only = cv.bitwise_and(image, image, mask = mask)
+        color_only = cv.bitwise_and(image, image, mask = mask)
         mask = cv.cvtColor(mask, cv.COLOR_GRAY2BGR)
-        # cv.imwrite("only_color.jpg",color_only)
+        cv.imwrite("only_color.jpg",color_only)
         return  cv.imwrite("threshold_mask.jpg",cv.subtract(image, mask))
 if __name__ == "__main__" :
   
