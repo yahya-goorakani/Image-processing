@@ -4,7 +4,7 @@ This Python script demonstrates how to blur an image using the Gaussian blur tec
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3.11
 - OpenCV (cv2) library
 
 ## Installation
@@ -37,10 +37,10 @@ You can adjust the blur effect by modifying the kernel size passed to the `cv.Ga
 - `blurred_image.jpg`: Output image after applying Gaussian blur.
 
 ## Example
-![Example 1](img.jpg)
-![Example 1](img1.jpg)
+![Example 1](example.jpg)
 
-[Your Name or Username]
+
+
 
 ## License
 
