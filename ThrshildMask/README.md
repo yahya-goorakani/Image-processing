@@ -38,6 +38,6 @@ Before running the script, ensure you have the following installed:
 
 ## Author
 
-[Your Name]
+
 
 Feel free to reach out for any questions or improvements!
