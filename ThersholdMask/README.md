@@ -10,7 +10,7 @@ Before running the script, ensure you have the following installed:
 
 ## Usage
 
-1. Clone the repository or download the script file (`threshildMask.py`).
+1. Clone the repository or download the script file (`thersholdMask.py`).
 
 2. Place an image file named `img.jpg` in the same directory as the script. This will be the input image for the masking process.
 
@@ -26,7 +26,7 @@ Before running the script, ensure you have the following installed:
 - Define the lower and upper boundaries of the color range to be masked (green color in this example) using numpy arrays.
 - Generate a binary mask using `inRange` function to filter out pixels within the specified color range.
 - Convert the binary mask to a color mask using `cvtColor` function.
-- Finally, subtract the color mask from the original image using `subtract` function to obtain the masked image, and save it as `threshold_mask.jpg`.
+- Finally, subtract the color mask from the original image using `subtract` function to obtain the masked image, and save it as `thershold_mask.jpg`.
 
 
 
