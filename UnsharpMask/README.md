@@ -2,15 +2,17 @@
 
 Enhance the details and edges of an image using the unsharp mask filter with this simple Python script powered by OpenCV.
 
-## Table of Contents
-- Overview
-- Prerequisites
-- Installation
-- Usage
-- Example
-- Contributing
-- License
-- Overview
+# Table of Contents
+-----------------
+
+*   [Overview](#overview)
+*   [Prerequisites](#prerequisites)
+*   [Installation](#installation)
+*   [Usage](#usage)
+*   [Example](#example)
+*   [Contributing](#contributing)
+*   [License](#license)
+
 - This Python script unsharp.py applies an unsharp mask filter to an input image, img.jpg, to enhance the image's details and edges. The resulting enhanced image is saved as unsharpened_image.jpg.
 
 ## Prerequisites
@@ -18,10 +20,11 @@ Enhance the details and edges of an image using the unsharp mask filter with thi
 
 - Python 3.11
 - OpenCV (cv2)
-- Installation
+
+## Installation
 - Clone the Repository
-git clone https://github.com/yahyagoorakani/yourproject.git
-cd yourproject
+git clone https://github.com/yahyagoorakani/unsharpMask.git
+cd unsharpMask
 
 
 - Install Required Packages
