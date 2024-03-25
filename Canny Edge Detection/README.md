@@ -10,7 +10,7 @@ This Python script demonstrates basic image processing using the OpenCV library.
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3.11
 - OpenCV
 - NumPy
 - Matplotlib
@@ -31,9 +31,9 @@ You can install the required packages using pip:
 
 ## Parameters
 
- cv2.Canny(blurred_image, 50, 150):
- blurred_image: The input grayscale image.
- 50: Lower threshold for the hysteresis procedure.
- 150: Upper threshold for the hysteresis procedure.
- You can adjust these thresholds according to your specific requirements to get better edge detection results.
+ - cv2.Canny(blurred_image, 50, 150):
+ - blurred_image: The input grayscale image.
+ - 50: Lower threshold for the hysteresis procedure.
+ - 150: Upper threshold for the hysteresis procedure.
+ - You can adjust these thresholds according to your specific requirements to get better edge detection results.
 
