@@ -19,8 +19,9 @@ This Python script demonstrates basic image processing using the OpenCV library.
 
 You can install the required packages using pip:
 
-```bash
-pip install opencv-python numpy matplotlib
+    ```bash
+    pip install opencv-python numpy matplotlib
+
 
 ## Usage
 
