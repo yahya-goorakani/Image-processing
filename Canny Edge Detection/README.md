@@ -28,6 +28,10 @@ You can install the required packages using pip:
 1. Replace 'path_to_your_image.jpg' with the path to the image you want to process.
 2. Run the script.
 
+## Example
+
+![example](example.png)
+
 
 ## Parameters
 
