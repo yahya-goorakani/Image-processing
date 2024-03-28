@@ -16,14 +16,8 @@ The lane detection system is designed to analyze images or videos captured from 
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository:https://github.com/yahya-goorakani/Image-processing/tree/main/laneDetection
 
-
-
-
-
-
-2. Install dependencies:
 
 
 ## Usage
