@@ -23,7 +23,7 @@ The lane detection system is designed to analyze images or videos captured from 
 ## Usage
 
 1. Ensure Python and OpenCV are installed on your system.
-2. Run the `laneDetection.py` script:
+2. Run the `laneDetection.py` script.
 
 
 
@@ -35,6 +35,7 @@ The lane detection system is designed to analyze images or videos captured from 
 ![Example 1](example1.png)
 ![Example 2](example.png)
 
-## License
+
+
 
 
